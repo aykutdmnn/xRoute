@@ -14,7 +14,7 @@ Choose **Chosen sites** (Discord is built in; add others by typing their name) o
 2. Run it as administrator. It installs the app, a Windows service and the engine under `C:\Program Files\xRoute` and adds a Start Menu shortcut.
 3. Start **xRoute** and press the power button. Press it again to stop; your DNS settings are restored. After you turn it on once, it starts with Windows and turns itself on again after every restart.
 
-Requirements: Windows 11, or Windows 10 build 17763 or newer, 64-bit, and the .NET 10 Desktop Runtime (the installer tells you if it is missing).
+Requirements: Windows 11, or Windows 10 build 17763 or newer and 64-bit. Nothing else needs to be installed; the .NET runtime is included.
 
 `xRoute-<version>-portable.zip` (same release page) holds the same files without the installer, for manual setup (`docs\INSTALLATION.md` inside the zip). Portable copies do not update themselves; they only point you to the releases page.
 
