@@ -10,7 +10,7 @@ Choose **Chosen sites** (Discord is built in; add others by typing their name) o
 
 ## Install
 
-1. Open the [latest release](https://github.com/aykutdmnn/xRoute/releases/latest) and download `xRoute-<version>-x64.msi`.
+1. Open the [latest release](https://github.com/aykutdmnn/xRoute/releases/latest) and download `xRoute-<version>-setup.msi` from **Assets** (not "Source code", that is only the project files and cannot be installed).
 2. Run it as administrator. It installs the app, a Windows service and the engine under `C:\Program Files\xRoute` and adds a Start Menu shortcut.
 3. Start **xRoute** and press the power button. Press it again to stop; your DNS settings are restored. After you turn it on once, it starts with Windows and turns itself on again after every restart.
 
