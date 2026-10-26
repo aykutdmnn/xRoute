@@ -1,8 +1,8 @@
 {
-  "version": "1.0.0",
-  "msi": "xRoute-1.0.0-x64.msi",
-  "sha256": "5835d51c2917eb7f0b2ca193f47114c9f3c64a257a2f37522e3585a6dbafccfa",
-  "size": 1708032,
-  "notes": "First public release.",
-  "signature": "DDmwgkgHFvydw8yh41Er3DKuXEc3v\u002BlKdVBUJ0E\u002BxestoNSxYuokqJgz8eKoNJ\u002BMGfsNMh9ehOZekjjQDShFbQ=="
+  "version": "1.0.1",
+  "msi": "xRoute-1.0.1-x64.msi",
+  "sha256": "968e8799427ab0362b6a014141d06289ffa9d6283e24556fd2a46c9f7375705b",
+  "size": 95212765,
+  "notes": "The installer now includes the .NET runtime, so nothing needs to be installed first, and setup asks whether to create a desktop shortcut. Also adds Linux and macOS packages.",
+  "signature": "n8giHg3EHtKPmTLUQbQEbSuRjFairLRUA0QPE84EAnC9Ijsc4tieq/cvLjOG68e2BaHWDvzHPL0pRgj8KsPfxA=="
 }
