@@ -26,10 +26,10 @@ Installed copies look for a new version when they start and every few hours. Whe
 
 ## Good to know
 
-- The installer is **not signed**, so Windows SmartScreen may warn.
-- Some antivirus programs (Kaspersky was seen) lock the installer because it contains the WinDivert driver, and `msiexec` fails with error 1619. Allow the file in your antivirus and run it again. xRoute never adds antivirus exclusions.
+- The installer is **not code-signed** yet, so Windows SmartScreen may warn ("More info", then "Run anyway"). Every release lists its SHA-256 digests in `SHA256SUMS.txt`; compare them with `Get-FileHash <file>` before you run it.
+- Some antivirus programs (Kaspersky was seen) may warn about or lock the installer, because it contains the WinDivert packet driver that tools of this kind are commonly flagged for. A locked installer shows up as `msiexec` error 1619. This is a false positive: the source is open and the driver is the unmodified upstream WinDivert 2.2.2. Allow the file in your antivirus, or pause it for the install, and run the installer again. xRoute never adds antivirus exclusions itself. If you can, report the file to your antivirus vendor as a false positive.
 - No telemetry, no accounts. The only thing xRoute fetches by itself is the newest-release information from github.com (see Updates). The only system change is the DNS switch described above, and the previous values come back when you stop.
 
 ## License
 
-MIT, see `LICENSE`. WinDivert (LGPLv3) is bundled unmodified; see `THIRD_PARTY_NOTICES.md`.
+MIT, see `LICENSE`. WinDivert (LGPLv3) is bundled unmodified; its license text ships in `docs\licenses` next to the app.
